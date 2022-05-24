@@ -1,0 +1,16 @@
+button {
+    /* outline-width: none; */
+    font-family: "FontAwesome";
+    background-color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button.fill {
+    background-color: grey;
+    color: white;
+}
+
+div button:hover {
+    background-color: green;
+}
