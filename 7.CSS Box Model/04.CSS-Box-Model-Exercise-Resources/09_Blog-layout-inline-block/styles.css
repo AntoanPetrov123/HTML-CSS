@@ -1,0 +1,14 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+
+img {
+    height: 35%;
+    width: 35%;
+}
+
+aside {
+    float: right;
+}
