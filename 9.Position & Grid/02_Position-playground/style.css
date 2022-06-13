@@ -1,0 +1,31 @@
+.viewport:first-child {
+    background-image: linear-gradient(to right, blue, teal);
+}
+
+.viewport {
+    background-image: linear-gradient(to right, purple, orange);
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.viewport .card {
+    display: block;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.6)
+}
+
+.viewport .card img {
+    width: 100%;
+}
+
+.viewport .card i {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: white;
+}
