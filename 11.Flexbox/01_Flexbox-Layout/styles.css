@@ -1,0 +1,47 @@
+body {
+    background-color: #EEE;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header {
+    padding: 2rem;
+    background-color: #FFF;
+    border-radius: 0.4rem;
+    color: #000;
+    flex-basis: 100%;
+    margin: 10px;
+    box-shadow: 0px 0px 13px 0px #00000057;
+}
+
+#main {
+    padding: 2rem;
+    background-color: #FFF;
+    border-radius: 0.4rem;
+    color: #000;
+    flex: 8 1 40rem;
+    margin: 10px;
+    height: 10rem;
+    box-shadow: 0px 0px 13px 0px #00000057;
+}
+
+#aside {
+    padding: 2rem;
+    background-color: #FFF;
+    border-radius: 0.4rem;
+    color: #000;
+    flex: 2 1 20rem;
+    margin: 10px;
+    box-shadow: 0px 0px 13px 0px #00000057;
+}
+
+#footer {
+    padding: 2rem;
+    background-color: #FFF;
+    border-radius: 0.4rem;
+    color: #000;
+    flex-basis: 100%;
+    margin: 10px;
+    box-shadow: 0px 0px 13px 0px #00000057;
+}

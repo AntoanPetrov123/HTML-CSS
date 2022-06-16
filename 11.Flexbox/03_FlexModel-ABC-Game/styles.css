@@ -1,0 +1,66 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 15vw;
+    height: 30rem;
+    gap: 0.1rem;
+}
+
+span {
+    padding: 15px 40px 15px 40px;
+    border:1px solid black;
+}
+
+.container span:nth-of-type(1) {
+    order: 8;
+}
+
+.container span:nth-of-type(2) {
+    order: 1;
+}
+
+.container span:nth-of-type(3) {
+    order: 9;
+}
+
+.container span:nth-of-type(4) {
+    order: 3;
+}
+
+.container span:nth-of-type(5) {
+    order: 7;
+}
+
+.container span:nth-of-type(6) {
+    order: 5;
+}
+
+.container span:nth-of-type(7) {
+    order: 10;
+}
+
+.container span:nth-of-type(8) {
+    order: 4;
+}
+
+.container span:nth-of-type(9) {
+    order: 5;
+}
+
+.container span:nth-of-type(10) {
+    order: 11;
+}
+
+.container span:nth-of-type(11) {
+    order: 0;
+}
+
+.container span:nth-of-type(12) {
+    order: 2;
+}
