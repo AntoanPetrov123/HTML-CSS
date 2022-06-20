@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.gallery{
+    justify-content: space-between;
+    max-height: 2000px;
+    max-width: 30rem;
+    flex-wrap: wrap;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+ul li {
+    display: flex;
+    border: 10px outset black;
+    height: 35rem;
+    width: 23rem;
+    background-color: white;
+    margin: auto;
+}
+img {
+    margin: auto;
+    padding: auto;
+}

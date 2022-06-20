@@ -1,0 +1,24 @@
+:root {
+    --color-blue: #0072B1;
+}
+.btn {
+    border-color: var(--color-blue);
+    color: var(--color-blue);
+    background-color: #fff;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn.btn--primary {
+    color: #fff;
+    background-color:var(--color-blue);
+    border: none;
+}
+
+.btn.btn--grey {
+    color: grey;
+    border:2px solid grey;
+    background-color: rgb(238, 229, 217);
+}

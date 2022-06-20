@@ -1,0 +1,81 @@
+:root {
+    --color-blue: #0072B1;
+}
+body {
+    margin-inline: auto;
+}
+.main-nav .nav {
+    display: flex;
+    height: 10px;
+    max-width: 400px;
+    justify-content: center;
+}
+
+.main__nav .nav__logo {
+    display: inline;
+    justify-content: start;
+    height: 100px;
+}
+
+.nav a {
+    display: inline;
+    justify-content: end;
+}
+
+.hero {
+    padding: 48px 36px;
+    display: flex;
+}
+
+.hero .content {
+    width: 60%;
+}
+
+.hero .content .title {
+    color:var(--color-blue);
+    font-size: 50px;
+    line-height: 1.2;
+    margin-bottom: 21px;
+}
+
+.hero .content form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 100px;
+}
+
+.hero .content form input{
+    padding: 10px 6px;
+    border: 0.5px solid gray;
+}
+
+.hero .content form input{
+    height: 20px;
+    margin-bottom: 12px;
+}
+
+.hero .content form a{
+    text-decoration: none;
+    color: gray;
+    margin-bottom: 24px;
+}
+
+.hero .hero-img {
+    height: 600px;
+}
+
+.jobs {
+    display: flex;
+    background-color: rgb(248, 248, 248);
+    height: 300px;
+    justify-content: center;
+    
+    gap: 30px;
+}
+.jobs .title {
+    color: black;
+    margin-top: 20px;
+}
+
+
