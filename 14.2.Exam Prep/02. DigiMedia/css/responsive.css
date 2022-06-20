@@ -1,0 +1,133 @@
+/* TODO: Add responsive styles here... */
+@media screen and (max-width: 600px) {
+
+    /* Part 1 */
+
+    .container .navbar-brand {
+        width: 100%;
+        padding: 32px;
+        display: flex;
+    }
+
+    .container .navbar-brand {
+        justify-content: center;
+    }
+
+    .container-fluid.hero img {
+        display: none;
+    }
+
+    /* Part 2 */
+
+    .container-fluid.hero {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 640px;
+    }
+
+    .container-fluid.hero .container h1 {
+        justify-content: center;
+    }
+    .container-fluid.hero .hero-btns{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    /* Part 3 */
+    .services .container {
+        width: 100%;
+        padding: 32px 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        /* height: 640px; */
+    }
+
+    .services .container .row {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+
+    .col-sm-6 {
+        max-width: 100%;
+    }
+    
+    .services .container .service-box {
+        text-align: start;
+        display: inline-block;
+        width: auto;
+        
+    }
+
+    .side2-img img {
+        position: absolute;
+        right: -20px;
+        top: 1775px;
+    }
+    
+
+    /* Party 4 */
+
+    .about .container {
+        width: 100%;
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 640px;
+    }
+
+    .about .container h5{
+        margin-top: 50px;
+    }
+
+    /* Part 5 */
+
+    .contact .container {
+        width: 100%;
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 640px;
+    }
+
+    .contact .container .row .hero-btns.contact-btn a {
+        display: none;
+    }
+
+    /* Part 6 Footer */
+ 
+    .container .row .contact-nav{
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container .row h3{
+        padding: 10px 30px;
+        text-align: center;
+    }
+
+    .container .row .contact-nav{
+        text-align: center;
+    }
+
+    .container .row h6{
+        padding: 0px;
+    }
+
+
+
+
+}
