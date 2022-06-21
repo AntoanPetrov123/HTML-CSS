@@ -51,6 +51,10 @@
         flex-wrap: wrap;
         flex-direction: column;
     }
+
+    p {
+        margin-bottom: 150px;
+    }
     
 
     .col-sm-6 {
