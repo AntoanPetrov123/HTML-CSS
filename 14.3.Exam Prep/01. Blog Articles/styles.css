@@ -1,0 +1,96 @@
+:root {
+    --background-color: #66b9f8;
+    --card-title-color: #ff9100;
+    --card-span-color: #a5a5a5;
+    --heading-font: 'Montserrat';
+    --text-font: 'Helvetica';
+
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--text-font), sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.main__title {
+    margin-top: 70px;
+    text-align: center;
+    color: #fff;
+}
+
+.container .card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0px 0px 26px 20px rgba(0,0,0,0.18);
+}
+
+.container .card .card__img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.container .card .card__title {
+    font-family: var(--heading-font), sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-inline: 10px;
+    color: var(--card-title-color);
+}
+
+.container .card .card__time {
+    padding-inline: 6px;
+    
+}
+
+.container .card .card__time .card__span {
+    padding: 8px;
+    color: var(--card-span-color);
+}
+
+
+.container .card .card__para {
+    padding-inline: 10px;
+}
+
+.container .card .card__btn {
+    width: 60%;
+    cursor: pointer;
+    border: none;
+    color: var(--card-title-color);
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: transparent;
+    text-align: start;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.btn {
+    cursor: pointer;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 27px;
+    padding: 15px 30px;
+    width: 15%;
+    justify-content: end;
+    text-align: center;
+}
