@@ -1,0 +1,244 @@
+:root {
+    --green-color: #41bead;
+    --yellow-color: #ffb402;
+    --light-blue-color: #92cdfb;
+    --blue-color: #66b9f8;
+    --light-gray-color: #919191;
+    --gray-color: #565656;
+    --orange-color: #ff9100;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Helvetica' ;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+
+/* NAVIGATION */
+
+.nav {
+    background-color: var(--green-color);
+    color: #fff;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+}
+
+.nav .nav__left {
+    width: 50%;
+}
+
+.nav .nav__left .nav__logo {
+    width: 14%;
+    justify-content: start;
+}
+
+.nav .nav__right {
+    margin-top: 9px;
+    text-align: center;
+
+}
+
+.nav .nav__right .nav__list {
+    display: flex;
+    justify-content: start;
+    width: 50%;
+    gap: 40px;
+
+}
+
+.nav .nav__right .nav__list .nav__link {
+    font-weight: bold;
+}
+
+
+/* HEADER */
+
+.hero {
+    color: #fff;
+    background-color: rgb(241, 186, 84);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 25vh;
+    justify-content: center;
+
+}
+
+.hero .hero__title{
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.hero .hero__text__div {
+    display: flex;
+    justify-content: center;
+}
+
+.hero .hero__text {
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+/* TRAINERS */
+
+.trainers {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+    height: 60vh;
+}
+
+.trainers .trainers__info {
+    display: flex;
+    width: 40%;
+}
+
+.trainers .trainers__info .trainers__info__box .trainers__info__title {
+    color: var(--green-color);
+}
+
+.trainers .trainers__info .trainers__info__box .trainers__info__position {
+    color: var(--light-gray-color);
+}
+.trainers .trainers__info .trainers__info_img {
+    width: 150px;
+    height: 150px;
+    border: 6px solid  var(--green-color);
+    border-radius: 100%;
+    margin-inline: 20px;
+}
+
+.trainers__info .trainers__info__box .trainers__info__paragraph {
+   margin-top: 20px;
+}
+
+/* MORE TRAINERS */
+
+.more__trainers {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    height: 30vh;
+}
+
+.more__trainers .trainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.more__trainers .trainer__img {
+    width: 150px;
+    height: 150px;
+    border: 6px solid  var(--green-color);
+    border-radius: 100%;
+    margin-bottom: 12px;
+}
+
+.more__trainers .trainer__name {
+    margin-bottom: 2px;
+    text-align: center;
+    color: var(--green-color);
+}
+
+.more__trainers .trainer__position {
+    text-align: center;
+    color: var(--light-gray-color);
+}
+
+/* FORM */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blue-color);
+    height: 35vh;
+    justify-items: center;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+.form .form__title {
+    margin-top: 50px;
+    top: 5;
+    font-size: 40px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: #fff;
+}
+
+.form .form__text {
+    color: #fff;
+    justify-self: center;
+    margin-bottom: 40px;
+}
+
+.form .form__inputs {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.form .form__inputs .form__inputs__name,
+.form .form__inputs .form__inputs__email,
+.form .form__inputs .form__inputs__phone {
+    background-color: transparent;
+    padding: 10px 13px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+::placeholder { 
+    color: #fff;
+}
+
+.form .form__inputs .btn {
+    cursor: pointer;
+    background-color: var(--orange-color);
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    padding: 2px 28px;
+    color: #fff;
+    font-weight: 500;
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.34);
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    background-color: var(--gray-color);
+    color: #fff;
+    justify-content: center;
+    gap: 120px;
+    padding-bottom: 20px;
+}
+
+.footer .footer__parts {
+    color: #fff;
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+.footer .footer__links .footer__list i{
+    font-size: 23px;
+    padding: 4px;
+}
+
+/* DIVIDER */
+
+.divider__form {
+    height: 10px;
+    background-color: var(--light-blue-color);
+}
+
+.divider__footer {
+    height: 10px;
+    background-color: var(--light-gray-color);
+}
