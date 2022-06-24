@@ -34,6 +34,7 @@ body {
 .nav .nav__left .nav__logo {
     width: 14%;
     justify-content: start;
+    cursor: pointer;
 }
 
 .nav .nav__right {
@@ -47,11 +48,11 @@ body {
     justify-content: start;
     width: 50%;
     gap: 40px;
-
 }
 
 .nav .nav__right .nav__list .nav__link {
     font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -226,6 +227,10 @@ body {
     margin-top: 12px;
     margin-bottom: 16px;
 }
+.footer .footer__links .footer__list .footer__link{
+    cursor: pointer;
+}
+
 .footer .footer__links .footer__list i{
     font-size: 23px;
     padding: 4px;
